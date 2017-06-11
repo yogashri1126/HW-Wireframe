@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  box-align: center;
+  margin: auto;
+  margin-top: 10px;
+}
+
+body {
+  font-size: 24px;
+  line-height: 32px;
+  width: 960px;
+  background-color: #777 ;
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #777;
+  background: #ebebeb;
+  font-family: Arial;
+  font-size: 18px;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #777;
+  width: 495px;
+}
+
+#nav {
+  padding: 20px;
+  clear: both;
+  color: #777;
+  background: #ebebeb;
+  font-family: Arial;
+  font-size: 18px;
+  width:100%;
+}
+
+#full{
+  float: left;
+  color: #777;
+  background: #ebebeb;
+  font-family: Arial;
+  font-size: 18px;
+  width: 470px;
+  overflow: auto;
+}
+
+#aside {
+  float: left;
+  padding: 20px;
+  margin-left: 20px;
+  height:290px;
+  width: 470px;
+  color: #777;
+  background: #ebebeb;
+  font-family: Arial;
+  font-size: 18px;
+}
+
+#article {
+  padding: 20px;
+  margin-top: 20px;
+  background: #777;
+  color: #ebebeb;
+  font-family: Arial;
+  font-size: 18px;
+}
+
+#headtitles {
+  padding: 10px;
+  margin-top: 10px;
+  color: #777;
+  background: #ebebeb;
+  font-family: Arial;
+  font-size: 18px;
+}
+
+#pclass {
+  padding: 10px;
+  margin-top: 10px;
+  color: #777;
+  background: #ebebeb;
+  font-family: Arial;
+  font-size: 18px;
+}
+
+footer {
+ padding: 20px;
+  margin-bottom: 20px;
+  color: #777;
+  background: #ebebeb;
+  font-family: Arial;
+  font-size: 18px;
+  clear:both;
+}
+/*Questions for Cam:
+1. Is their an easy way to correspond the height with the section other than doing the math of padding, margin, or other parts to calculate the total element height?
+2. Is their an easy way for "#aside" to get the same padding that I assigned in the section other than manually going to the aside properties to put the padding?*/;
